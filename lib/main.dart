@@ -2,7 +2,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
-
 import 'package:practice/pokemon.dart';
 import 'package:practice/pokemondetail.dart';
 
@@ -71,7 +70,8 @@ class _HomePageState extends State<HomePage> {
                             child: Card(
                               elevation: 3,
                               child: Column(
-                                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceEvenly,
                                 children: [
                                   Container(
                                     height: 100.0,
@@ -93,7 +93,6 @@ class _HomePageState extends State<HomePage> {
                         ),
                       ))
                   .toList()),
-      drawer: Drawer(),
     );
   }
 }
